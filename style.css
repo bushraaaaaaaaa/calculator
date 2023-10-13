@@ -1,0 +1,37 @@
+button{
+    padding:10px;
+    margin:50px;
+    width: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px rgb(223, 210, 210);
+    color: rgb(25, 25, 124);
+    font-weight: bold;
+    border-color: rgb(21, 21, 90);
+
+}
+#containerr{
+    width:400px;
+   background-image: linear-gradient(to right, rgb(22, 22, 22) , rgb(168, 166, 182));;
+   border-radius: 10px;
+   box-shadow: 2px 3px rgb(168, 166, 175) ;
+}
+#result {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  /* Style the input field on focus */
+  #result:focus {
+    border-color: #e74c3c;
+  }
+  body{
+    background-image: url(/image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
